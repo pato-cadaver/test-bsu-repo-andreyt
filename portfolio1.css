@@ -7,14 +7,17 @@
     vertical-align: middle; */
     line-height: 30px;
     font: 16px/1.4 Arial,sans-serif;
-    color: teal;
+    /*color: teal;*/
   }
-  #wrapper{width: 900px; margin: 0 auto; background:#3eb1b9;
+  #wrapper{
+    width: 900px; 
+    margin: 0 auto; 
+    /*background:#3eb1b9;*/
   }
   #header{
 position:relative; 
 height: 100px; 
-background-color: teal; 
+/*background-color: teal; */
  margin-bottom: 5px; 
 border-radius: 5px; 
 box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
