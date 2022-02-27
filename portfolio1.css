@@ -1,39 +1,152 @@
-.block {
-    display: inline-block; 
-    /*position: relative;*/
-    /*margin-bottom: 50px;    
-    margin: 20px auto;
-    padding: 20px;
-    vertical-align: middle; */
-    line-height: 30px;
-    font: 16px/1.4 Arial,sans-serif;
-    /*color: teal;*/
-  }
-  #wrapper{
-    width: 900px; 
-    margin: 0 auto; 
-    /*background:#3eb1b9;*/
-  }
-  #header{
-position:relative; 
-height: 100px; 
-/*background-color: teal; */
- margin-bottom: 5px; 
-border-radius: 5px; 
-box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+/*HEADER*/
+
+.header{
+    position: fixed; height: 100px; width: auto;
+     top:0%; left: 0%;
+    right: 0%;
+    background-color: #0e1a40;/*border:dashed 2px green;*/
+    z-index: 99;
 }
-  #content{ 
-margin-bottom: 5px; 
-width: 676px; 
-padding: 10px; 
-background: #ffffff; 
-border-radius: 5px;
-box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;}
-  #rightcont{
-      background-color: #ffffff;
-      width: 180px;
-      padding: 10px; 
-      float: right; 
-      border-radius: 5px; 
-      box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+#focirc{
+position: relative;
+/*border: 5px solid black;*/
+width: 100px;
+margin-left: 50px;
+}
+#circle{
+    position: absolute;
+    border-radius: 50%;
+    border: cornsilk 5px solid;
+    background: #946b2d;
+    z-index: 100;
+    margin-top: 10px; 
+    width: 75px; height: 75px;
+}
+th{
+    padding: 1px 30px 1px; border: 1px black dotted; 
+}
+.header table{
+    position: absolute;
+    right: 5%; top: 50px;
+    border-collapse: collapse;
+    color: cornsilk;
+}
+body{
+    background-color:  	#000000;
+}
+
+/*OSNOVA*/
+
+#main{
+    position: relative;
+    width: 1060px;  height: 100%;
+    top: 70px;
+    left: 210px;
+}
+
+/*PERVII BLOCK*/
+
+.block1{
+    position: absolute; 
+    /*border: 2px dashed blue;*/
+    width:100%; height: 35em;
+    background-color:  #222f5b;
+    border-left: #946b2d groove  10px; border-right: #946b2d ridge 10px;
+    border-bottom: #946b2d ridge 5px;
+}
+.block1 img{
+    position: absolute;
+    border-radius: 15px;
+    border: #946b2d 5px outset;
+}
+#fio{
+    position: absolute;
+    left: 100px; top: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 2.2em; font-weight: bold;
+    text-align:center;
+    color:white;
+    padding: 0px 5px 2px;
+}
+.skills{
+    position: absolute;
+    right: 80px; top: 45px;
+    text-align: center;
+}
+.skills dt{
+    text-align: left; 
+    padding:2px 10px 2px;
+    z-index: 30;
+}
+.skills dt figure{
+    z-index: 29; background: #946b2d;
+    margin:0 0 0;
+    padding: 0px 5px 0px;
+}
+.bioback{
+    position: absolute;
+    left: 36%; right: 24%;
+    background-color: #5d5d5d;
+    width: 35%; height: 100%;
+    border-left: #0e1a40 ridge 5px;
+    border-right: #0e1a40 groove 5px;
+    padding: 0 10px 0;
+}
+.bio{
+    position: absolute;
+    margin-left: auto; margin-right: auto;
+    width: 90%; height: auto;
+    background-color: #222f5b;
+    text-align: justify;
+    padding: 0px 5px 5px;
+}
+.bio edu{
+    top: 50px;
+}
+.bio skill{
+    top: 80px;
+}
+.bio work{
+    top: 110px; 
+}
+
+
+/*VTOROI BLOCK*/
+
+#block2{
+    position: absolute; top: 35.3em;
+    border-top: #946b2d groove 5px;
+    border-left: #946b2d groove  10px; border-right: #946b2d ridge 10px;
+    width:100%;
+    background-color:  #5d5d5d;
+}
+
+/*TRETII BLOCK*/
+#block3{
+    position: absolute; top: 55em;
+    left: 0%; right: 0%;
+    /*border: 2px dashed orange;*/
+    width:100%; /*height: 5%;*/
+    background-color:  	#f2825a;
+}
+
+.footer{
+    position: absolute; left: 0em; top:100em;
+    width:100%; height: 10em;
+    /*border: double rgb(151, 14, 192) 2px;*/
+    background-color: #62225a;
+    
+}
+.footer table{
+    margin: 50px auto 0;
+    color: white;
+    font-size: 14px;
+    font-style:italic;
+    border-collapse: collapse;
+    border: 0px;
+    text-align: center;
+}
+.footer th{
+    border: 0px;
+    padding: 0px 100px 10px;
 }
