@@ -44,7 +44,7 @@ body{
     left: 210px;
 }
 
-/*PERVII BLOCK*/
+/*FIRST BLOCK*/
 
 .block1{
     position: absolute; 
@@ -130,30 +130,64 @@ background: #946b2d;
 .r2{top:50px; right: -65px;}
 .r3{top:30px; right: -65px;}
 
-/*VTOROI BLOCK*/
+/*SECOND BLOCK*/
 
-#block2{
+.block2{
     position: absolute; top: 35.3em;
     border-top: #946b2d groove 5px;
-    border-left: #946b2d groove  10px; border-right: #946b2d ridge 10px;
-    width:100%;
-    background-color:  #5d5d5d;
+    border-left: #946b2d groove  10px; 
+    border-right: #946b2d ridge 10px;
+    border-bottom: #946b2d ridge 5px;
+    width:100%; height: 30em;
+    background-color: #222f5b;
 }
+.galback{
+    position: relative;
+    background-color: #5d5d5d;
+    width: 95%; height:80%; 
+    left: 2.5%; right: 2.5%;
+    border-radius: 20px;
+    border: #0e1a40 double 5px;
+}
+.gal{
+    height: 95%;width: 95%;
+    /*background-color: #0e1a40;*/
+    position: absolute;
+    top: 2.5%; left: 2.5%;
+    border-radius: 10px;
+}
+.gal table{
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    height: 95%;width: 100%;
+}
+.gal td{
+    height: 100%; width: 500px;
+    padding: 10px 20px 10px;
+}
+.galpic{
+    height: 90%;width: 200px;
+    border-radius: 15px;
+}
+
+
 
 /*TRETII BLOCK*/
 #block3{
-    position: absolute; top: 55em;
-    left: 0%; right: 0%;
-    /*border: 2px dashed orange;*/
-    width:100%; /*height: 5%;*/
-    background-color:  	#f2825a;
+    position: relative; top: 65.9em;
+    width: 100%; height: 35em;
+    background-color: #222f5b;
+    border-top: #946b2d groove 5px;
+    border-left: #946b2d groove  10px; 
+    border-right: #946b2d ridge 10px;
 }
 
 .footer{
-    position: absolute; left: 0em; top:100em;
+    position: absolute; left: 0em; top:106em;
     width:100%; height: 10em;
     /*border: double rgb(151, 14, 192) 2px;*/
-    background-color: #62225a;
+    background-color: #0e1a40;
     
 }
 .footer table{
